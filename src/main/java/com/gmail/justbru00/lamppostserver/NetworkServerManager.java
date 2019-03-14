@@ -120,6 +120,7 @@ public class NetworkServerManager {
                  * LAMP1 or LAMP2
                  */
                 String lampName = in.readLine();
+                LAMP_NAME = lampName;
 
                 // Get messages from the client, line by line; 
                 while (!stop) {
